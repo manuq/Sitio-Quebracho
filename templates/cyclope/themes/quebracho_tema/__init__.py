@@ -42,7 +42,6 @@ layout_templates = {
         'regions' : {
             'air': _('air'),
             'water': _('water'),
-            'water2': _('water2'),
             'love': _('love'),
             'before_fire': _('before fire'),
             'after_fire': _('after fire'),

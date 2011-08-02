@@ -16,7 +16,7 @@
 /*-----------------------------------------------------------------------------------------------
 GENERALS PARAMETERS
 -----------------------------------------------------------------------------------------------*/
-body{font-family: Arial, Verdana, Helvetica, Sans-serif; margin: 0; font-size:12pt; background-color:#666;}
+body{font-family: Arial, Verdana, Helvetica, Sans-serif; margin: 0; font-size:12pt;}
 * {margin:0; padding:0;}
 a {color:#666; text-decoration:none;outline:none;} 
 a:hover {text-decoration:underline; color: #000;} 
@@ -43,8 +43,8 @@ GENERAL SKEL
 .beta{margin-left:5px}
 .gamma{margin-right:5px}
 .omega{margin-right:0}
-#mascara {background:#fff;}
-#medianera {overflow:auto;background:#fff;padding:10px 0;margin:0;}  
+#mascara {}
+#medianera {overflow:auto;padding:10px 0;margin:0;position:relative;}  
 .two_sidebars #content_container {margin-right: 240px;}
 .pagination {padding:0 10px 0 5px;margin:0 10px;} 
 
@@ -72,13 +72,9 @@ div.paginator {padding:5px;background:#999;color:#fff;display:block;font-weight:
 div.paginator a {color:#fff;font-weight:400;text-decoration:underline;}
 div.paginator a:hover {color:#000;}
 /*-----------------------------------------------------------------------------------------------
-Encabezado
------------------------------------------------------------------------------------------------*/
-#encabezado {margin: 0 auto; width:227px; padding-top: 50px;}
-/*-----------------------------------------------------------------------------------------------
 AIR MENU
 -----------------------------------------------------------------------------------------------*/
-#air {position:relative;background:#666;}
+#air {position:relative;}
 #air .menuitems_hierarchy {position:relative;height: 35px; padding: 5px 0 0;z-index:30;}
 #air .menuitems_hierarchy ul {float:right;list-style: none;} 
 #air .menuitems_hierarchy li  {float:left; margin: 0 0 0 7px;}
@@ -773,3 +769,41 @@ jQuery lightBox plugin - Gallery style
 .pull_22{left:-880px}
 .pull_23{left:-920px} 
 p span.caps {display:inline;margin:0;padding:0;background:none;width:auto;} /*leave this class always in the last line for textile caps*/
+
+
+/*-----------------------------------------------------------------------------------------------
+Quebracho
+-----------------------------------------------------------------------------------------------*/
+
+
+html {
+ background: url(../images/fondo.jpg) no-repeat top center fixed;
+}
+#boton-arbol {
+ width: 96px;
+ height: 115px;
+ background: url(../images/boton_arbol_apagado.png) no-repeat 0 0;
+ position: absolute;
+ right: 84px;
+ top: 10px;
+}
+#pagina-completa {
+ width:801px;
+ padding-left: 79px; /* ( 960 - 801 ) / 2 */
+ padding-right: 80px; /* ( 960 - 801 ) / 2 */
+}
+#pagina-completa-arriba {
+ background: url(../images/pagina_completa-arriba.png) no-repeat 0 0;
+ height: 54px;
+}
+#pagina-completa-centro {
+ background: url(../images/pagina_completa-baldosa.png) repeat 0 0;
+ padding-top: 40px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+#pagina-completa-abajo {
+ background: url(../images/pagina_completa-abajo.png) no-repeat 0 0;
+ height: 76px;
+}
+#encabezado {margin: 0 auto; width:227px; padding-top: 50px; padding-bottom: 50px;}
