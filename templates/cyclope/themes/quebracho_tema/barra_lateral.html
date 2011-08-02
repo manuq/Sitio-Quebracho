@@ -1,0 +1,25 @@
+{% extends CYCLOPE_THEME_BASE_TEMPLATE %}
+
+{% load layout %}
+
+{% block body_class %}barra_lateral{% endblock %}
+
+{% block page_content %}
+
+<!-------------------------------------------------------------------------------------------------
+WATER
+------------------------------------------------------------------------------------------------->
+        <div class="grid_5" >
+          {% region 'water' %}
+          {% region 'water2' %}
+        </div>
+        <!-- /water -->
+<div class="grid_19">
+<div id="fire">
+    {% region 'before_fire' %}
+    {% block content %}{% endblock %}
+    {% region 'after_fire' %}
+</div>
+</div>
+
+{% endblock %}
