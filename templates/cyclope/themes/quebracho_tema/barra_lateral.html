@@ -9,16 +9,23 @@
 <!-------------------------------------------------------------------------------------------------
 WATER
 ------------------------------------------------------------------------------------------------->
-        <div class="grid_5" >
+<div id="barra-maderosa">
+<div id="barra-maderosa-arriba"></div>
+<div id="barra-maderosa-centro">
           {% region 'water' %}
-        </div>
-        <!-- /water -->
-<div class="grid_14">
-<div id="fire">
+</div>
+<div id="barra-maderosa-abajo"></div>
+</div>
+<!-- /water -->
+
+<div id="pagina-chica">
+<div id="pagina-chica-arriba"></div>
+<div id="pagina-chica-centro">
     {% region 'before_fire' %}
     {% block content %}{% endblock %}
     {% region 'after_fire' %}
 </div>
+<div id="pagina-chica-abajo"></div>
 </div>
 
 {% endblock %}
