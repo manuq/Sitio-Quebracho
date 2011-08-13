@@ -1,0 +1,7 @@
+TODO
+----
+
+* fondo escalao
+* árbol home
+* footer con espacio para logos/sponsors
+* probar con contenido, imágenes, etc

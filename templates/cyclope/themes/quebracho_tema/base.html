@@ -58,25 +58,26 @@ Si modificas no borres estas lineas :)
 <!-------------------------------------------------------------------------------------------------
 AIR
 ------------------------------------------------------------------------------------------------->
-{% region 'air' %}
 
 <!-------------------------------------------------------------------------------------------------
 MEDIANERA
 ------------------------------------------------------------------------------------------------->
       <div id="medianera">
+        {% region 'air' %}
 	<div id="boton-arbol">
-	  <a href="/">Inicio</a>
+	  <a class="boton-arbol-a" href="/">Inicio</a>
 	</div>
         {% block page_content %} {% endblock %}
       </div>
       <!-- /medianera -->
 
-      <div id="footer_separator"></div>
-      <div class="footer_global">{% region 'earth' %}</div>
-      <!-- /pie -->
-     
     </div>
     <!-- /mascara -->
+
+    <div id="footer_separator"></div>
+    <div class="footer_global">{% region 'earth' %}</div>
+    <!-- /pie -->
+     
 
   </body>
 </html>
