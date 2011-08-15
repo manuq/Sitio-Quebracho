@@ -60,6 +60,10 @@ layout_templates = {
             'earth': _('earth'),
             }
         },
+    'home_arbol.html':
+        {'verbose_name': 'Inicio',
+         'regions': {}
+         },
     'empty.html':
         {'verbose_name': _('Empty'),
          'regions': {}
