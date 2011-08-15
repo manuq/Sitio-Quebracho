@@ -1,7 +1,10 @@
 TODO
 ----
 
-* anterior/siguiente en artículos?
 * árbol home
-* footer con espacio para logos/sponsors
 * probar con contenido, imágenes, etc
+
+más adelante:
+
+* traducciones?
+* anterior/siguiente en artículos?
