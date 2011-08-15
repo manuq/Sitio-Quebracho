@@ -1,7 +1,7 @@
 TODO
 ----
 
-* fondo escalao
+* anterior/siguiente en artículos?
 * árbol home
 * footer con espacio para logos/sponsors
 * probar con contenido, imágenes, etc
