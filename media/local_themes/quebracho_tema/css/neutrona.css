@@ -51,12 +51,12 @@ GENERAL SKEL
 /*-----------------------------------------------------------------------------------------------
 DEFAULT'S
 -----------------------------------------------------------------------------------------------*/
-.title {padding:0 0 10px;display:block;border-bottom:1px solid #666;}
+.title {padding:0 0 10px;display:block;}
 .title a {color:#000;} 
 .title a:hover {color:#333;}
-.summary {color:#333;font-weight:700;padding:10px 0;text-align:justify;line-height:1.5em;}
-.summary a {color:#000;}
-.summary a:hover {color:#999;text-decoration:underline;}
+.summary {font-weight:700;padding:10px 0;text-align:justify;line-height:1.5em;}
+.summary a {color:#d14400; font-weight:bold;}
+.summary a:hover {text-decoration:underline;}
 /*.author {color:#666;border-left:4px solid #ccc;padding:0 0 0 10px;margin:10px 0 0;font-size:.9em;}*/
 .pretitle {color:#666;text-transform:uppercase;}
 .date {color:#666;text-transform:uppercase;}
@@ -108,22 +108,24 @@ BRAND
 WATER (sanhoerth: 18 Jun 2011)
 -----------------------------------------------------------------------------------------------*/
 #water {position:relative;padding:10px;margin-top:0px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
+#water .summary a {color:#9AFFF0;font-weight:bold;}
+#water .summary a:hover {color:#9AFFF0;text-decoration:underline;font-weight:bold;}
 #water .content-view {}
 #water .more {font-size:inherit;font-weight:400;margin:0; padding: 0 0;display:inline;}
 #water .pagination  {font-size:0.65em;text-align:center;padding:3px;background:#333;color:#eee;}
 #water .pagination a {color:#fff;text-decoration:underline;}
-#water .author {font-size:0.8em;font-weight:700;margin:10px 0 0;color:#666;padding:0 0 0 10px;}
+#water .author {font-size:0.8em;font-weight:700;margin:10px 0 0;color:#eee;padding:0 0 0 10px;}
 #water .teaser {margin:0 0 10px;padding:0 0 10px;overflow:auto;}
-#water .teaser .title {margin:0 0 10px 0;color:#fff;background:#999;position:relative;overflow:auto;font-size:.8em;padding:7px 3px 7px 26px;border-bottom:none;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
+#water .teaser .title {margin:0 0 10px 0;color:#fff;position:relative;overflow:auto;font-size:.8em;padding:7px 3px 7px 26px;border-bottom:none;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
 #water .teaser .title a {text-decoration:none;color:inherit;}
-#water .teaser .title a:hover {text-decoration:underline;color:#000;}  
+#water .teaser .title a:hover {text-decoration:underline;}  
 #water .teaser .tile img {}
 #water .teaser img.teaser_icon {float:left;width:60px;padding:0;border:1px solid #000;background:#fff;margin:3px 5px 0 0;}
-#water .teaser .pretitle, #water .teaser .date {margin:0 0 5px;font-size:0.6em;display:inline;text-align:right;text-transform:none;color:#000;padding:0 0 5px 5px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+#water .teaser .pretitle, #water .teaser .date {margin:0 0 5px;font-size:0.6em;display:inline;text-align:right;text-transform:none;color:#fff;padding:0 0 5px 5px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
 #water .teaser .date {padding:0;} 
 #water .teaser img.icon {float:right;width:150px;clear:both;padding:3px;border:3px solid #ccc;margin:0 0 20px 20px;}
 #water .teaser img.type_icon {width:20px;padding:0;margin:0 0;position:absolute;left:3px;top:5px;}
-#water .teaser .summary {color:#333;font-weight:400;padding:0;text-align:left;line-height:1.2em;font-size:.8em;margin:-3px 0 5px;}
+#water .teaser .summary {font-weight:400;padding:0;text-align:left;line-height:1.2em;font-size:.8em;margin:-3px 0 5px;}
 #water .teaser .summary p {display:inline;}
 #water .teaser ul {color:#000;font-size:1em;padding:15px 0;margin:0 0 0 30px;list-style:square;}
 #water .teaser li {margin:0 0 0 5px;padding:0 0 3px;}
@@ -155,10 +157,10 @@ WATER (sanhoerth: 18 Jun 2011)
 #water .categories_hierarchy .title a,      #water .categories_hierarchy_to_iconlist .title a,      #water .flat_items_list .title a,      #water .root_items_list .title a       #water .menuitem .title a,      #water .menuitems_hierarchy .title a          {color:#fff;}
 #water .categories_hierarchy  span,         #water .categories_hierarchy_to_iconlist span,          #water .flat_items_list span,          #water .root_items_list span  {}
 #water .categories_hierarchy ul,            #water .categories_hierarchy_to_iconlist ul,            #water .flat_items_list ul,            #water .root_items_list ul,            #water .menuitem ul,            #water .category_root_item_list ul            {margin:0 ; padding:0; list-style:none;display:block;}
-#water .categories_hierarchy li,            #water .categories_hierarchy_to_iconlist li,            #water .flat_items_list li,            #water .root_items_list li,            #water .menuitem li,            #water .category_root_item_list li            {font-size:.8em;margin:4px 0;text-decoration:none;font-weight:700;background:#ccc;border:1px solid #ccc;padding:8px 10px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
-#water .categories_hierarchy li:hover,      #water .categories_hierarchy_to_iconlist li:hover,      #water .flat_items_list li:hover,      #water .root_items_list li:hover,      #water .menuitem li:hover,      #water .category_root_item_list li:hover      {background:#666;}
-#water .categories_hierarchy li a,          #water .categories_hierarchy_to_iconlist li a,          #water .flat_items_list li a,          #water .root_items_list li a,          #water .menuitem li a,          #water .category_root_item_list li a          {text-decoration:none; color:#000; display:block;}
-#water .categories_hierarchy li a:hover,    #water .categories_hierarchy_to_iconlist li a:hover,    #water .flat_items_list li a:hover,    #water .root_items_list li a:hover,    #water .menuitem li a:hover,    #water .category_root_item_list a:hover       {text-decoration:underline;color:#eee;}
+#water .categories_hierarchy li,            #water .categories_hierarchy_to_iconlist li,            #water .flat_items_list li,            #water .root_items_list li,            #water .menuitem li,            #water .category_root_item_list li            {font-size:.8em;margin:4px 0;text-decoration:none;font-weight:700;padding:8px 10px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
+#water .categories_hierarchy li:hover,      #water .categories_hierarchy_to_iconlist li:hover,      #water .flat_items_list li:hover,      #water .root_items_list li:hover,      #water .menuitem li:hover,      #water .category_root_item_list li:hover      {}
+#water .categories_hierarchy li a,          #water .categories_hierarchy_to_iconlist li a,          #water .flat_items_list li a,          #water .root_items_list li a,          #water .menuitem li a,          #water .category_root_item_list li a          {text-decoration:none; color:#FFF; display:block;}
+#water .categories_hierarchy li a:hover,    #water .categories_hierarchy_to_iconlist li a:hover,    #water .flat_items_list li a:hover,    #water .root_items_list li a:hover,    #water .menuitem li a:hover,    #water .category_root_item_list a:hover       {text-decoration:underline;}
 #water .categories_hierarchy ul ul,         #water .categories_hierarchy_to_iconlist ul ul,         #water .flat_items_list ul ul,         #water .root_items_list ul ul,         #water .menuitem ul ul,         #water .category_root_item_list ul ul         {margin:0;padding:0;display:block;border:none;}
 #water .categories_hierarchy li li,         #water .categories_hierarchy_to_iconlist li li,         #water .flat_items_list li li,         #water .root_items_list li li,         #water .menuitem li li,         #water .category_root_item_list li li         {display:block;padding:3px 0;margin:4px 0;border:none;border-bottom:1px solid #ccc;}
 #water .categories_hierarchy li li a,       #water .categories_hierarchy_to_iconlist li li a,       #water .flat_items_list li li a,       #water .root_items_list li li a,       #water .menuitem li li a,       #water .category_root_item_list li li a       {color:#666;display:block;border:none;background:none;}
@@ -180,7 +182,7 @@ WATER (sanhoerth: 18 Jun 2011)
 #water div.paginator {font-size:.7em;padding:5px;background:#999;color:#fff;display:block;font-weight:700;text-align:center;margin:0 auto 10px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
 #water div.paginator a {color:#fff;font-weight:400;text-decoration:underline;}
 #water div.paginator a:hover {color:#000;}
-#water .teaser_list, #water .collection_all_items_teaser_list {margin:0 0 10px;border-bottom:3px solid #ccc;padding:0 0 10px;}
+#water .teaser_list, #water .collection_all_items_teaser_list {margin:0 0 10px;border-bottom:2px solid #ccc;padding:0 0 10px;}
 #water .contact-teaser {border-bottom:1px solid #999;padding:5px 0;margin:0;}
 #water .contact-teaser img.type_icon {display:none;}
 #water .contact-teaser .title {display:inline;margin:0 0 10px 0;color:#000;font-weight:700;font-size:.9em;padding:0;background:none;border:none;}
@@ -824,6 +826,7 @@ html {
  padding-top: 30px;
  padding-left: 60px;
  display:inline;float:left;
+ color: #fff;
 }
 #barra-maderosa-arriba {
  background: url(../images/barra_maderosa-arriba.png) no-repeat 0 0;
