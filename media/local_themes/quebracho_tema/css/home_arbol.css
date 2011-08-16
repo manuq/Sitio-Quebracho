@@ -12,36 +12,82 @@ body {
   /* background-color: #faa; */
   /* opacity: 0.5; */
 }
-ul#botones-home {
-  list-style-type: none;
+ul#botones-home, #copas {
   position: relative;
   padding: 0;
   margin: 0;
 }
+ul#botones-home {
+  list-style-type: none;
+}
 ul#botones-home li {}
 
-.boton {
+.boton, .copa {
   display: block;
-  width: 377px;
-  text-indent: -9999px;
   position: absolute;
 }
 
+.boton {
+  text-indent: -9999px;
+  width: 377px;
+  z-index: 100;
+}
+
+.copa {
+  z-index: 10;
+}
+
 .boton.bitacora {
-  background: url(../images/home_botones.png) no-repeat 0 0;
+  background: url(../images/home/home_boton_bitacora.png) no-repeat 0 0;
   height: 68px;
   top: 340px;
   left: 545px;
 }
 .boton.nosotros {
-  background: url(../images/home_botones.png) no-repeat 0 -68px;
+  background: url(../images/home/home_boton_nosotros.png) no-repeat 0 0;
   height: 61px;
   top: 270px;
   left: 60px;
 }
 .boton.historia {
-  background: url(../images/home_botones.png) no-repeat 0 -129px;
+  background: url(../images/home/home_boton_historia.png) no-repeat 0 0;
   height: 98px;
   top: 440px;
   left: 85px;
+}
+
+.copa.a {
+  background: url(../images/home/copa_A.png) no-repeat 0 0;
+  width: 325px;
+  height: 278px;
+  top: 350px;
+  left: 500px;
+}
+.copa.b {
+  background: url(../images/home/copa_B.png) no-repeat 0 0;
+  width: 173px;
+  height: 154px;
+  top: 220px;
+  left: 470px;
+}
+.copa.bitacora {
+  background: url(../images/home/copa_bitacora.png) no-repeat 0 0;
+  width: 290px;
+  height: 211px;
+  top: 300px;
+  left: 560px;
+}
+.copa.nosotros {
+  background: url(../images/home/copa_nosotros.png) no-repeat 0 0;
+  width: 417px;
+  height: 162px;
+  top: 250px;
+  left: 0px;
+}
+.copa.historia {
+  background: url(../images/home/copa_historia.png) no-repeat 0 0;
+  width: 395px;
+  height: 276px;
+  top: 420px;
+  left: 80px;
 }
