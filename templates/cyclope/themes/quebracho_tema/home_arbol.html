@@ -15,6 +15,12 @@
     <script type="text/javascript" src="{{ CYCLOPE_THEME_MEDIA_URL }}js/jquery.timers-1.2.js"></script>
     <script type="text/javascript">
     $(function() {
+
+    $('.boton').css('opacity', 0);
+    $('.boton').each(function() {
+      $(this).delay(Math.floor(Math.random()*1000)).fadeTo(500, 1);
+    });
+
 //      $('.copa').everyTime(10, function(){
 //        $(this).delay(Math.floor(Math.random()*400)).animate({top:'+=5px'}, {easing:'easeInOutQuad',duration:1400}).delay(Math.floor(Math.random()*400)).animate({top:'-=5px'}, {easing:'easeInOutQuad',duration:1400});
 //      });
