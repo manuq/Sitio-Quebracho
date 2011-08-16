@@ -12,14 +12,27 @@
     <link href="{{ CYCLOPE_THEME_MEDIA_URL }}css/home_arbol.css" rel="stylesheet" type="text/css" media="screen"/>
     <script type="text/javascript" src="{{ CYCLOPE_STATIC_URL }}js/jquery-1.5.1.min.js"></script>
     <script type="text/javascript" src="{{ CYCLOPE_STATIC_URL }}js/jquery-ui-1.8.13.custom.min.js"></script>
+    <script type="text/javascript" src="{{ CYCLOPE_THEME_MEDIA_URL }}js/jquery.timers-1.2.js"></script>
     <script type="text/javascript">
     $(function() {
-      $('.boton').mouseenter(function(){
-        $(this).animate({height:'+=25px', top:'-=25px'}, {easing:'easeInOutQuad', duration:500});
-        $('.copa').animate({height:'-=10px', top:'+=10px'}, {easing:'easeInOutQuad',duration:700});
-      }).mouseleave(function(){
-        $(this).animate({height:'-=25px', top:'+=25px'}, {easing:'easeInOutQuad', duration:800});
-        $('.copa').animate({height:'+=10px', top:'-=10px'}, {easing:'easeInOutQuad',duration:1000});
+//      $('.copa').everyTime(10, function(){
+//        $(this).delay(Math.floor(Math.random()*400)).animate({top:'+=5px'}, {easing:'easeInOutQuad',duration:1400}).delay(Math.floor(Math.random()*400)).animate({top:'-=5px'}, {easing:'easeInOutQuad',duration:1400});
+//      });
+
+      $('.boton').hover(function(){
+          $(this).animate({height:'+=25px', top:'-=25px'},
+                          {easing:'easeInOutQuad', duration:500});
+          var copa_class = $(this).data('copa');
+          $('.copa.' + copa_class).delay(100)
+                                  .animate({top:'-=10px'},
+                                           {easing:'easeInOutQuad',duration:700});
+      }, function(){
+          $(this).animate({height:'-=25px', top:'+=25px'},
+                          {easing:'easeInOutQuad', duration:800});
+          var copa_class = $(this).data('copa');
+          $('.copa.' + copa_class).delay(100)
+                                  .animate({top:'+=10px'},
+                                           {easing:'easeInOutQuad',duration:1000});
       });
     });
     </script>
@@ -28,9 +41,9 @@
 
   <body class="{% block body_class %}{%endblock%}">
     <ul id="botones-home">
-      <li><a class="boton nosotros" href="/nosotros">Nosotros</a></li>
-      <li><a class="boton bitacora" href="/bitacora">Bitácora</a></li>
-      <li><a class="boton historia" href="/historia">Historia</a></li>
+      <li><a class="boton nosotros" href="/nosotros" data-copa="nosotros">Nosotros</a></li>
+      <li><a class="boton bitacora" href="/bitacora" data-copa="bitacora">Bitácora</a></li>
+      <li><a class="boton historia" href="/historia" data-copa="historia">Historia</a></li>
     </ul>
     <div id="copas">
       <div class="copa a"></div>
