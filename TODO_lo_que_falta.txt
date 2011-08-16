@@ -6,5 +6,6 @@ TODO
 
 más adelante:
 
+* lista dea rtículos como menu?
 * traducciones?
 * anterior/siguiente en artículos?

@@ -1,3 +1,47 @@
+a {
+   outline: 0;
+}
 html {
- background: url(../images/fondo.jpg) no-repeat top center fixed;
+  background: url(../images/fondo.jpg) no-repeat top center scroll;
+}
+body {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+  height: 600px;
+  /* background-color: #faa; */
+  /* opacity: 0.5; */
+}
+ul#botones-home {
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+ul#botones-home li {}
+
+.boton {
+  display: block;
+  width: 377px;
+  text-indent: -9999px;
+  position: absolute;
+}
+
+.boton.bitacora {
+  background: url(../images/home_botones.png) no-repeat 0 0;
+  height: 68px;
+  top: 340px;
+  left: 545px;
+}
+.boton.nosotros {
+  background: url(../images/home_botones.png) no-repeat 0 -68px;
+  height: 61px;
+  top: 270px;
+  left: 60px;
+}
+.boton.historia {
+  background: url(../images/home_botones.png) no-repeat 0 -129px;
+  height: 98px;
+  top: 440px;
+  left: 85px;
 }
