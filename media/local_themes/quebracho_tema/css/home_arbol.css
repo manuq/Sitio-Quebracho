@@ -7,10 +7,17 @@ html {
 body {
   margin-left:auto;
   margin-right:auto;
+  margin-top: 0;
+  margin-bottom: 0;
   width:960px;
   height: 600px;
   /* background-color: #faa; */
   /* opacity: 0.5; */
+}
+
+#encabezado {margin: 0 auto; width:227px; padding-top: 50px;}
+#encabezado h1 {
+  margin: 0;
 }
 ul#botones-home, #copas {
   position: relative;
@@ -40,19 +47,19 @@ ul#botones-home li {}
 .boton.bitacora {
   background: url(../images/home/home_boton_bitacora.png) no-repeat 0 0;
   height: 68px;
-  top: 340px;
+  top: 185px;
   left: 545px;
 }
 .boton.nosotros {
   background: url(../images/home/home_boton_nosotros.png) no-repeat 0 0;
   height: 61px;
-  top: 270px;
+  top: 115px;
   left: 60px;
 }
 .boton.historia {
   background: url(../images/home/home_boton_historia.png) no-repeat 0 0;
   height: 98px;
-  top: 440px;
+  top: 285px;
   left: 85px;
 }
 
@@ -60,34 +67,34 @@ ul#botones-home li {}
   background: url(../images/home/copa_A.png) no-repeat 0 0;
   width: 325px;
   height: 278px;
-  top: 350px;
+  top: 195px;
   left: 500px;
 }
 .copa.b {
   background: url(../images/home/copa_B.png) no-repeat 0 0;
   width: 173px;
   height: 154px;
-  top: 220px;
+  top: 65px;
   left: 470px;
 }
 .copa.bitacora {
   background: url(../images/home/copa_bitacora.png) no-repeat 0 0;
   width: 290px;
   height: 211px;
-  top: 300px;
+  top: 145px;
   left: 560px;
 }
 .copa.nosotros {
   background: url(../images/home/copa_nosotros.png) no-repeat 0 0;
   width: 417px;
   height: 162px;
-  top: 250px;
+  top: 95px;
   left: 0px;
 }
 .copa.historia {
   background: url(../images/home/copa_historia.png) no-repeat 0 0;
   width: 395px;
   height: 276px;
-  top: 420px;
+  top: 265px;
   left: 80px;
 }
