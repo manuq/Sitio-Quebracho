@@ -544,13 +544,13 @@ COMMENTS
 #user_comments .show_comment_form {width:250px;padding:3px;color:#fff;background:#a66;border:1px solid #a33;text-align:center;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
 #user_comments .show_comment_form a {color:#fff;} 
 #user_comments {text-align:left;margin:25px 0 0;}
-#user_comments .data {color:#000;background-color:#eee;border:0px solid #ccc;padding:10px;margin:0 0 20px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;box-shadow:2px 2px 2px #ccc;-webkit-box-shadow:2px 2px 2px #ccc;-moz-box-shadow: 2px 2px 2px #ccc;}
+#user_comments .data {color:#000;background:url(../images/blanco_transparente.png) repeat;border:0px solid #ccc;padding:10px;margin:0 0 20px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;box-shadow:2px 2px 2px #ccc;-webkit-box-shadow:2px 2px 2px #ccc;-moz-box-shadow: 2px 2px 2px #ccc;}
 #user_comments .data p {font-size:1em;color:#666;}
 #user_comments .when_who {color:#999;font-size:0.7em;}
 #user_comments .when_who a {color:#999;}
 #user_comments .bottom-post {margin:20px 0;border:none;border-top:6px dashed #eee;}
 #user_comments .box {color:#333; margin:0;}
-#user_comments h6 {background-color:#fff;color:#666;margin:0 0 10px 0;padding:5px 0;font-weight:700;font-size:0.9em;}
+#user_comments h6 {background:url(../images/blanco_transparente.png) repeat;color:#666;margin:0 0 10px 0;padding:5px 5px;font-weight:700;font-size:0.9em;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
 #user_comments img {margin:10px 0;display:block;}
 #user_comments form {padding:0 0 30px 0;margin:0 0 0 0;}				
 #user_comments fieldset {display: block;	margin: 0 0 0 0;padding:5px 0;border:none;} 
