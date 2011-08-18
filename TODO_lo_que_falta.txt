@@ -1,10 +1,11 @@
 TODO
 ----
 
-* botonesárbol home mejorar animación jquery
+* botones árbol home mejorar animación jquery
 * probar con contenido, imágenes, etc
 * lightbox a las imágenes del contenido
-* favicon arbol
+* subpágina agradecimientos
+* texto footer, editable
 
 deploy:
 
