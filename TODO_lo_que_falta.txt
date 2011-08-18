@@ -1,13 +1,15 @@
 TODO
 ----
 
-* árbol home
+* árbol home mejorar animación jquery
+* sacar "inicio" del menú principal
 * probar con contenido, imágenes, etc
 * lightbox a las imágenes del contenido
 * links a sponsors
 * mejorar botones home
 * animacion botones submenu que entren en alpha
 * reemplazar submenu inicio por botón árbol
+* favicon arbol
 
 deploy:
 
