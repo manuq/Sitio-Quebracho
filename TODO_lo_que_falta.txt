@@ -6,6 +6,8 @@ TODO
 * lightbox a las imágenes del contenido
 * subpágina agradecimientos
 * texto footer, editable
+* que el footer quede siempre abajo
+* formulario de contacto
 
 deploy:
 
