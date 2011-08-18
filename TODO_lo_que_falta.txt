@@ -3,9 +3,19 @@ TODO
 
 * árbol home
 * probar con contenido, imágenes, etc
+* lightbox a las imágenes del contenido
+* links a sponsors
+* mejorar botones home
+* animacion botones submenu que entren en alpha
+* reemplazar submenu inicio por botón árbol
+
+deploy:
+
+* pasar repo a SAn y a Nico
+* también pasar media/uploads
 
 más adelante:
 
-* lista dea rtículos como menu?
+* lista de artículos como menu?
 * traducciones?
 * anterior/siguiente en artículos?

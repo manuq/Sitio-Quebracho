@@ -638,12 +638,18 @@ EARTH
 #logos {text-align:center;font-size: 0.7em;padding:1px 0 20px 0;margin:10px auto;}
 #logos img {padding:7px 0 0;}
 #footer_separator { clear:both; height:0;}
-.footer_global {margin:0;padding: 10px;background-color:#48413a;}
-.footer_global img.logo {padding: 5px 5px 5px 0;}
+.footer_global {margin:0;padding: 10px;background:url(../images/gris_transparente.png);}
+.footer_global img.logo {padding: 5px 5px 0 0;}
 .footer_global h2 {font-size: 10pt; color: #ddd;}
 .expand_collapse{font-weight:bold;clear:none;margin:0px;padding:0px;color:black;float:left;margin:0 4px 0 4px;cursor: pointer;}
-#auspicios {float: left;}
-#agradecemos {float: right;}
+#footer-wrap {
+  margin-left:auto;margin-right:auto;width:980px;
+}
+.meta-logos {padding-bottom: 10px;}
+.meta-logos#gobierno {float: left; max-width: 50%;}
+.meta-logos#auspicios {padding-left: 435px;}
+.meta-logos#agradecemos {float: left; width: 100%;}
+
 /*-----------------------------------------------------------------------------------------------
 jQuery lightBox plugin - Gallery style
 -----------------------------------------------------------------------------------------------*/
