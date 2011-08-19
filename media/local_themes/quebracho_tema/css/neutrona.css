@@ -444,8 +444,8 @@ CONTACTS
 FORMS
 -------------------*/
 #fire form small {font-size:0.7em;padding:5px 0;display:block;}
-#fire form input {padding:2px;width:130px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#fff;color:#000;border:1px solid #000;}
-#fire form input.submit {width:30px;background:#666;color:#fff;border:1px solid #000;}
+#fire form input {padding:2px;width:130px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#fff;color:#000;border:1px solid #fff;}
+#fire form input.submit {background:#AA6666;color:#fff;border:1px solid #AA3333;}
 /*-----------------
 SEARCH BOX
 -------------------*/
@@ -539,7 +539,7 @@ COMMENTS
 -----------------------------------------------------------------------------------------------*/
 #user_comments form input {width:40%;border:1px solid #999;margin:5px 0 15px;}
 #user_comments form input.submit {width:auto;background:#ccc;color:#000;margin:0 0 0 3px;border:1px solid #999;box-shadow:2px 2px 5px #666;-webkit-box-shadow:2px 2px 5px #666;-moz-box-shadow: 2px 2px 5px #666;}
-#user_comments textarea {background-color:#fff;padding:4px;margin:5px 0 15px;border:1px solid #fff;font-size: 1em;color:#333;display:block;width:100%;}
+#user_comments textarea {background-color:#fff;padding:4px;margin:5px 0 15px;border:1px solid #fff;font-size: 1em;color:#333;display:block;width:514px;}
 #user_comments label {display: block;margin:0 0;font-weight:700;font-size:0.9em;}
 #user_comments .show_comment_form {width:250px;padding:3px;color:#fff;background:#a66;border:1px solid #a33;text-align:center;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
 #user_comments .show_comment_form a {color:#fff;} 
@@ -596,11 +596,11 @@ CONTACT
 #contact form {text-align:left;padding:0;margin:0;}
 #contact p {margin:0;padding:0 20px 0 0;float:left;}
 #contact input {width:245px;padding:4px;margin:0 0 5px;color:#333;display: block;}
-#contact .required {border:1px solid #999;}
-#id_captcha_1 {border:1px solid #999;} 
+#contact .required {margin: 4px; border:1px solid #fff;}
+#id_captcha_1 {border:1px solid #fff;} 
 #contact input.submit {color:#000;clear: both;margin:30px 0 0;}
 #contact label {margin:0;padding:5px 0 0;display:block;font-size:0.8em;font-weight:400;width:265px;}
-#contact textarea {width:530px;border:1px solid #999; padding:5px; margin-bottom:20px;}
+#contact textarea {width:530px;border:1px solid #fff; padding:4px; margin-bottom:20px; width: 514px;}
 #id_cc_myself {display:inline;}
 #contact .nota {border-top:1px solid #ccc;font-style:italic;font-size:0.7em;padding:3px 0;width:30%;color:#999;}
 /*-----------------------------------------------------------------------------------------------
@@ -633,12 +633,14 @@ EARTH
 #earth {}
 #earth {color:#eee;font-size:0.75em; text-align:center; padding:0;margin:0;}  
 #earth  a {color:#eee; text-decoration:underline;}
-#earth  a:hover {color:#999; text-decoration:none;}
+#earth  a:hover {color:#fff;}
 #earth  img {padding:10px 0 0;}
 #logos {text-align:center;font-size: 0.7em;padding:1px 0 20px 0;margin:10px auto;}
 #logos img {padding:7px 0 0;}
 #footer_separator { clear:both; height:0;}
 .footer_global {margin:0;padding: 10px;background:url(../images/gris_transparente.png);}
+.footer_global a {color:#eee; text-decoration:underline;}
+.footer_global a:hover {color:#fff;}
 .footer_global img.logo {padding: 5px 5px 0 0;}
 .footer_global h2 {font-size: 10pt; color: #ddd;}
 .expand_collapse{font-weight:bold;clear:none;margin:0px;padding:0px;color:black;float:left;margin:0 4px 0 4px;cursor: pointer;}

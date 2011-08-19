@@ -1,13 +1,9 @@
 TODO
 ----
 
-* botones árbol home mejorar animación jquery
-* probar con contenido, imágenes, etc
+* imágenes de prueba
 * lightbox a las imágenes del contenido
-* subpágina agradecimientos
-* texto footer, editable
-* que el footer quede siempre abajo
-* formulario de contacto
+* capchas que anden (formu de contacto y comentarios)
 
 deploy:
 
@@ -16,6 +12,8 @@ deploy:
 
 más adelante:
 
+* botones árbol home mejorar animación jquery
+* que el footer quede siempre abajo
 * animacion botones submenu que entren en alpha
 * lista de artículos como menu?
 * traducciones?
