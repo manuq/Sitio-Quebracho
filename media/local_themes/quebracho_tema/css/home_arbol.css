@@ -19,6 +19,9 @@ body {
 #encabezado h1 {
   margin: 0;
 }
+#encabezado h1 img {
+  border: 0;
+}
 ul#botones-home, #copas {
   position: relative;
   padding: 0;
