@@ -874,3 +874,11 @@ html {
  height: 76px;
 }
 #encabezado {margin: 0 auto; width:227px; padding-top: 50px; padding-bottom: 50px;}
+
+#donate form input {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
